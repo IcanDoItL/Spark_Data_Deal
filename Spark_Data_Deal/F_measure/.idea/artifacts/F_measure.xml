@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="F_measure">
+    <output-path>$PROJECT_DIR$/out/artifacts/F_measure</output-path>
+    <root id="archive" name="F_measure.jar">
+      <element id="module-output" name="F_measure" />
+      <element id="extracted-dir" path="$USER_HOME$/tools/scala-2.10.6/lib/scala-actors-migration.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/tools/scala-2.10.6/lib/scala-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/tools/scala-2.10.6/lib/scala-swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/tools/scala-2.10.6/lib/scala-library.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/tools/scala-2.10.6/lib/scala-actors.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -20,11 +20,12 @@ object Common {
     val nodePairsInreal = realPairs.length
     val nodePairsCpm = comparePairs.length
     val nodePairsNumInreal = (Allpairs.length-Allpairs.distinct.length)
-    val Precision:Double = nodePairsNumInreal.toDouble/nodePairsInreal
-    val Recall = nodePairsNumInreal.toDouble/nodePairsCpm
+    val Recall = nodePairsNumInreal.toDouble/nodePairsInreal
+    val Precision:Double = nodePairsNumInreal.toDouble/nodePairsCpm
     val f_measure = (2*Precision*Recall)/(Precision+Recall)
     val writer = new PrintWriter(new File(outputFile))
     writer.write(Precision.toString+","+Recall.toString+","+f_measure.toString+"\n")
     writer.close()
   }
 }
+
